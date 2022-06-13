@@ -27,14 +27,19 @@ export const SideContainerMobile = styled(SideContainer)`
 margin-left: 5.36%;
 margin-top: 5%;
 @media (min-width: 768px){
-margin-left: 5.36%;
-margin-top: 5%;
+   margin-left: 5.36%;
+   margin-top: 5%;
 };
 `;
 
 export const MenuBarContainer = styled.div`
 height: 10.7%;
 display:flex;
+padding-top: 4%;
+@media(min-width:786){
+  height: 10.7%;
+  display:flex;
+};
 `;
  
 
