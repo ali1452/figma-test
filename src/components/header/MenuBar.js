@@ -1,6 +1,7 @@
+import { FcMenu } from 'react-icons/fc';
 import React from 'react';
 import { LogoweFresh } from '../../assests/Img';
-import { Item, Logo, MenuBarContainer, MenuList } from './Styled';
+import { IconMobileUI, Item, Logo, MenuBarContainer, MenuList } from './Styled';
 
 function MenuBar() {
     return (
@@ -9,11 +10,12 @@ function MenuBar() {
             <LogoweFresh />
             </Logo>
             <MenuList>
-                <Item>Our App</Item>
+                <Item onClick={()=>alert('hello world')}>Our App</Item>
                 <Item>For Business</Item>
                 <Item>About us</Item>
                 <Item>English</Item>
             </MenuList>
+            <IconMobileUI><FcMenu color="white" fontSize="2.0em" /></IconMobileUI>            
         </MenuBarContainer>
     );
 }

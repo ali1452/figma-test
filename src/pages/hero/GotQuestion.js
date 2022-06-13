@@ -1,7 +1,7 @@
 import React from 'react';
-import { QuestionContainer, QuestionItem, Box, TextArea, BoxLine, Title, Description, BottomBoxItem, BottomBox } from './Styled';
+import { QuestionContainer, QuestionItem, Box, TextArea, BoxLine, Title, Description, BottomBoxItem, BottomBox, CaptionItem } from './Styled';
 
-function GotQuestion(props) {
+function GotQuestion() {
     return (
         <QuestionContainer>
             <QuestionItem>Got Question?</QuestionItem>
@@ -17,8 +17,8 @@ function GotQuestion(props) {
                  <Box>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Box>
                  <Box>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Box>
             <QuestionItem>Still have a question?</QuestionItem>
-            <captionItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore</captionItem>
+            <CaptionItem>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                tempor incididunt ut labore et dolore</CaptionItem>
             <BottomBox>
             <BottomBoxItem>
                 <Title>+66 8959888</Title>
@@ -29,7 +29,6 @@ function GotQuestion(props) {
                 <Description>Lorem ipsum dolor sit amet, consectetur</Description>
                 </BottomBoxItem> 
                 </BottomBox>
-
 </QuestionContainer>
 
     );

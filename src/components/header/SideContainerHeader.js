@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppStore, GooglePlay } from '../../assests/Img';
-import { BannerText, BannerTextBold, FieldBtn, InputField, SideContainer, TextAvailable } from './Styled';
+import { BannerText, BannerTextBold, FieldBtn, InputField, SideContainer, StoreMobileUI, TextAvailable } from './Styled';
 
 function SideContainerHeader() {
     return (
@@ -10,7 +10,7 @@ function SideContainerHeader() {
        <InputField type="number" name="phonenumber" placeholder='Enter your number'></InputField>
        <FieldBtn>Send</FieldBtn>
        <TextAvailable>Available on</TextAvailable>
-       <AppStore/><GooglePlay/>
+       <StoreMobileUI><AppStore/> <GooglePlay/></StoreMobileUI>
        </SideContainer> 
     );
 }

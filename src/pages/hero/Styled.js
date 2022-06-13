@@ -22,30 +22,52 @@ height:240px;
 
 `;
 export const QuestionContainer = styled.div`
-height: 167%;
 text-align: center;
 margin-top: 17.36%;
 margin-bottom: 9%;
+width: 100%;
+@media(min-width:786px){
+margin-top: 17.36%;
+margin-bottom: 9%;
+height: 167%;
+text-align: center;
+};
+}
 `;
  
 export const QuestionItem = styled.div`
-font-size: 42px;
-color: #68BAE3;
-`;
-
-export const captionItem = styled.div`
 font-size: 22px;
+color: #68BAE3;
+margin-top: 30%;
+@media(min-width:786px){
+    font-size: 42px;
+    color: #68BAE3;}
+`;
+export const CaptionItem = styled.div`
+color: #868E95;
+padding: 2%;
 text-align: center;
+@media(min-width: 786px){
+    font-size: 22px;
+    text-align: center;}
 `;
 
 export const Box = styled.div`
 width:54%;
+margin-left:12%;
+padding: 6px;
+text-align: left;
+padding: 12px;
+border-bottom: 1px solid #E8E8E8;
+
+@media(min-width:786px){
 border: 1px solid #E8E8E8;
 border-radius: 4px;
 margin-left:23%;
 margin-bottom: 1%;
 text-align: left;
 padding: 12px;
+}
 `;
 
 export const BoxLine = styled.div`
@@ -54,22 +76,41 @@ margin-bottom: 1%;
 `;
 
 export const TextArea = styled(Box)`
-border: 1px solid #68BAE3;
-
+color:#868E95;
+border-top: 1px solid #E8E8E8; 
+@media(min-width: 768px){ 
+    border: 1px solid #68BAE3;
+}
 `;
 
 export const BottomBox = styled.div`
-display: flex;
+diplay: flex;
+flex-direction: row;
 justify-content:center;
+}
+
+@media(min-width:768px){
+display: flex;
+justify-content:center;}
 `;
 
 export const BottomBoxItem = styled.div`
+padding: 10%;
+padding-top: 18%;
+width: 240px;
+overflow:auto;
+border: 1px solid #E8E8E8;
+border-radius: 10px;
+margin-left: 8%;
+margin-bottom: 2%;
+@media(min-width: 786px){
 padding: 1%;
 padding-top: 4%;
-width: auto;
+width: 240px;
 overflow:auto;
 border: 1px solid #E8E8E8;
 margin: 2%;
+}
 `;
 
 export const Title = styled.div`
