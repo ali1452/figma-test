@@ -48,19 +48,22 @@ color: #868E95;
 padding: 2%;
 text-align: center;
 @media(min-width: 786px){
+    width: 40%;
+    margin-left:28%; 
     font-size: 22px;
     text-align: center;}
 `;
 
 export const Box = styled.div`
-width:54%;
-margin-left:12%;
-padding: 6px;
+width: 100%;
+margin-left: 0;
+margin-top: 4%; 
+padding: 8px;
 text-align: left;
-padding: 12px;
 border-bottom: 1px solid #E8E8E8;
 
 @media(min-width:786px){
+width: 50%;
 border: 1px solid #E8E8E8;
 border-radius: 4px;
 margin-left:23%;
@@ -76,9 +79,13 @@ margin-bottom: 1%;
 `;
 
 export const TextArea = styled(Box)`
-color:#868E95;
-border-top: 1px solid #E8E8E8; 
+width: 100%;
+color: #868E95;
+padding: 8px;
+margin-left: 0;
+
 @media(min-width: 768px){ 
+    width: 50%;
     border: 1px solid #68BAE3;
 }
 `;

@@ -26,6 +26,10 @@ export const SideContainer = styled.div`
 export const SideContainerMobile = styled(SideContainer)`
 margin-left: 5.36%;
 margin-top: 5%;
+@media (min-width: 768px){
+margin-left: 5.36%;
+margin-top: 5%;
+};
 `;
 
 export const MenuBarContainer = styled.div`
@@ -104,6 +108,7 @@ width: 60%;
 height: 3.5%;
 border:none;
 padding: 1%;
+margin-left: 0;
 }
 `;
 
@@ -141,10 +146,11 @@ margin-bottom:4%;
 }
 `;
 export const StoreMobileUI =styled.div`
-display: flex;
-justify-content: center;
+display: block;
+margin-left: 38%;
 @media(min-width:786px){
 display: block;
+margin-left:0;
 
 }
 `;

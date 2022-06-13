@@ -5,13 +5,14 @@ function GotQuestion() {
     return (
         <QuestionContainer>
             <QuestionItem>Got Question?</QuestionItem>
-            <captionItem>Perfect, we’ve got answers!</captionItem>
+            <CaptionItem>Perfect, we’ve got answers!</CaptionItem>
             <Box>How to get started?</Box>
             <TextArea>
             <BoxLine>Lorem ipsum dolor sit amet, consectetur adipis</BoxLine>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
                  </TextArea>
                  <Box>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Box>
                  <Box>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Box>
@@ -30,7 +31,6 @@ function GotQuestion() {
                 </BottomBoxItem> 
                 </BottomBox>
 </QuestionContainer>
-
     );
 }
 

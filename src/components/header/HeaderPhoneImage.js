@@ -1,6 +1,6 @@
 import React from 'react';
 import { HeaderPhone } from '../../assests/Img';
-import { SideContainer, SideContainerMobile } from './Styled';
+import { SideContainerMobile } from './Styled';
 
 function HeaderPhoneImage(props) {
     return (

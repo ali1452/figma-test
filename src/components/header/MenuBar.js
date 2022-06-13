@@ -15,7 +15,7 @@ function MenuBar() {
                 <Item>About us</Item>
                 <Item>English</Item>
             </MenuList>
-            <IconMobileUI><FcMenu color="white" fontSize="2.0em" /></IconMobileUI>            
+            <IconMobileUI><FcMenu  fontSize="2.0em" /></IconMobileUI>            
         </MenuBarContainer>
     );
 }
